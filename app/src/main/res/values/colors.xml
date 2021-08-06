@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="materialprimary">#F5DC32</color>
+
+    <color name="colorPrimary">#FBD228</color>
+    <color name="colorPrimaryDark">#333244</color>
+    <color name="colorAccent">#333244</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="red">#FF0000</color><!--红色 -->
+    <color name="gray">#767c9b</color><!--灰色 -->
+    <color name="aquamarine">#7fffd4</color><!--碧绿色 -->
+    <color name="turquoise">#40e0d0</color><!--青绿色 -->
+    <color name="accent">#61B3DD</color>
+    <color name="bg">#f0f0f0</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <!-- Colores Pichincha -->
+    <color name="yellowDark">#FFCC00</color>
+    <color name="yellowMedium">#FFDC00</color>
+    <color name="blueDark">#10265C</color>
+    <color name="blueText">#0F265C</color>
+    <color name="greyDark">#616161</color>
+    <color name="greyLighter">#D5D5D5</color>
+    <color name="btnGreyActivo">#6672787A</color>
+    <color name="btnGreyInactivo">#3372787A</color>
+</resources>

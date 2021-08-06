@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cnb.pichincha.wposs.mivecino_pichincha">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+    <!-- This excludes Google TV, which is unfortunately included by virtue of not requiring a camera -->
+    <uses-feature android:name="android.hardware.touchscreen" />
+
+    <application
+        android:name="cn.desert.newpos.payui.base.PayApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app_pichi"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_app_pichi_round"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <uses-library android:name="com.pos.device" />
+
+        <activity android:name=".screens.StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.desert.newpos.payui.master.MasterControl"
+            android:multiprocess="true"
+            android:theme="@style/AppTheme.WUZI"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.desert.newpos.payui.master.ResultControl"
+            android:configChanges="mcc|mnc|orientation|screenSize|keyboard|layoutDirection"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.desert.newpos.payui.setting.ui.SettingsFrags"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:multiprocess="true"
+            android:theme="@style/AppTheme.WUZI"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.desert.newpos.payui.transrecord.HistoryTrans"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:multiprocess="true"
+            android:theme="@style/AppTheme.WUZI"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.desert.newpos.payui.setting.ui.classical.TransparaFrags"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:multiprocess="true"
+            android:theme="@style/AppTheme.WUZI"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="cn.desert.newpos.payui.setting.ui.simple.CommunSettings" />
+        <activity android:name="cn.desert.newpos.payui.setting.ui.simple.KeysSettings" />
+        <activity android:name="cn.desert.newpos.payui.setting.ui.simple.TransSetting" />
+        <activity android:name="cn.desert.newpos.payui.setting.ui.simple.PrivateSettings" />
+        <activity android:name="cn.desert.newpos.payui.setting.ui.simple.transson.TransMerchantSetting" />
+        <activity android:name="cn.desert.newpos.payui.setting.ui.simple.transson.TransSysSetting" />
+        <activity android:name=".screens.Login"
+            android:windowSoftInputMode="stateVisible|adjustResize"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".screens.LoginCentralizado"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".screens.MainMenuPrincipal" />
+        <activity android:name=".screens.Administrativo.MainMenu10_4_UsuariosLocales" />
+        <activity android:name=".screens.MainMenu3_Recargas" />
+        <activity android:name=".screens.MainMenu5_Recaudaciones"/>
+        <activity android:name=".screens.configuracion.MainMenu10_7_Configuracion" />
+        <activity android:name=".screens.configuracion.MainMenu10_7_2_Comunicacion" />
+        <activity android:name=".screens.configuracion.MainMenu10_7_2_1_Red" />
+        <activity android:name=".screens.configuracion.MainMenu10_7_2_1_3_Personalizar" />
+        <activity android:name=".screens.Administrativo.MainMenu10_4_1_Login_ModificarAdmin"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".screens.Administrativo.MainMenu10_4_1_1_ModificarAdmin"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".screens.Administrativo.MainMenu10_4_3_Login_Re_Establecer_Clave"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".screens.Administrativo.MainMenu10_4_3_1_Re_Establecer_Clave" />
+        <activity android:name=".screens.Administrativo.MainMenu10_4_3_2_Re_EstablecerClave" />
+        <activity android:name=".screens.Administrativo.MainMenu10_4_4_Login_EliminarUsuario"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".screens.Administrativo.MainMenu10_4_4_1_EliminarUsuario" />
+        <activity android:name=".screens.Administrativo.MainMenu10_4_5_ReporteUsuario" />
+        <activity android:name=".screens.Administrativo.MainMenu10_4_5_1_ReporteUsuario_Pantalla" />
+        <activity android:name=".screens.MainMenu5_1_AntTransito" />
+        <activity android:name=".screens.Administrativo.MainMenu10_4_6_Login_ModificarClave"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".screens.Administrativo.MainMenu10_4_6_1_ModificarClave"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".screens.MainMenu10_Administrativo" />
+        <activity android:name=".screens.MainMenu6_1_ConsultaPersonas" />
+        <activity android:name=".screens.MainMenu7_GirosRemesas" />
+        <activity android:name=".screens.MainMenu9_Productos" />
+        <activity android:name="newpos.libpay.device.pinpad.InjectMasterKey" />
+        <activity android:name=".screens.MainMenu4_PagoServicios" />
+        <activity android:name=".screens.MainMenu10_3_Informes" />
+        <activity android:name=".screens.MainMenu10_8_ModoConexion" />
+        <activity android:name=".screens.MensajeCampo60" />
+        <activity android:name=".screens.VerificaBateria" />
+        <activity android:name=".screens.VerificaTarjeta" />
+        <activity android:name=".screens.VerificaPapelImpresion" />
+        <activity android:name=".screens.configuracion.MainMenu10_7_3_Pantalla" />
+        <activity android:name=".screens.ToolsAppCompact" />
+        <activity
+            android:name=".screens.Navegacion.navegacion"
+            android:label="@string/title_activity_navegacion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".screens.Administrativo.ImpresionPantalla"></activity>
+    </application>
+
+</manifest>

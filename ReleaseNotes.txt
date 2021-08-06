@@ -1,0 +1,984 @@
+Novedades de versiones:
+
+Mi Vecino 1.6.E.2_8 - 08 Enero 2021
+
+Actualizacion:
+
+*   Se implementa transacción Retiro sin tarjeta
+*   Se eliminan los logs de la aplicación
+
+Archivos modificados: 15
+
+*   \newposs_9220_pichincha_cnb\app\build.gradle
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\constructor\Utils.java
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\trans_vista_msg_confirmacionremesas.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_ingreso_1fecha_1text.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\GirosyRemesas\GirosyRemesas.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tokns\Tkn27.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tokns\Tkn98.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenu7_GirosRemesas.java
+*   \newposs_9220_pichincha_cnb\app\src\main\res\values\strings.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\finace\FinanceTrans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransUIImpl.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransUI.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tools\Wrlg.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\transrecord\HistoryTrans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\master\MasterControl.java
+
+============================================================================================
+
+Mi Vecino 1.6.E.1 - 14 Mayo 2020
+
+Actualizacion:
+
+*   Se implementa transacción Retiro sin tarjeta
+*   Se eliminan los logs de la aplicación
+
+Archivos modificados:
+
+*   \newposs_9220_pichincha_cnb\ReleaseNotes.txt
+*   \newposs_9220_pichincha_cnb\app\build.gradle
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\transrecord\HistoryTrans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tools\Wrlg.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransUI.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\master\MasterControl.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransUIImpl.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransView.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\finace\FinanceTrans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\Retiro\Retiro.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\utils\ISOUtil.java
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_ingreso_monto_2_edittext.xml
+
+============================================================================================
+
+Mi Vecino 1.5.E.9 - 07 Mayo 2020
+
+Actualizacion:
+
+*   Se implementa ajuste de OTP en cuenta Xperta
+*   Se corrige impresión en cupón histórico caso microcobros
+
+Archivos modificados:
+
+*   \newposs_9220_pichincha_cnb\ReleaseNotes.txt
+*   \newposs_9220_pichincha_cnb\app\build.gradle
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\finace\FinanceTrans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\CuentaXperta\CuentaXperta.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\Trans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tokns\Tkn08.java
+
+============================================================================================
+
+Mi Vecino 1.5.E.4 - 27 Marzo 2020
+
+Actualizacion:
+
+*   Se integra microcobros a la versión 1.4.E.10
+*   Se corrige Bug al ingresar al APN
+
+Archivos modificados:
+
+*   \newposs_9220_pichincha_cnb\ReleaseNotes.txt
+*   \newposs_9220_pichincha_cnb\app\build.gradle
+*	\newposs_9220_pichincha_cnb\app\src\main\AndroidManifest.xml
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenuPrincipal.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\finace\FinanceTrans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Administrativas\InitTrans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Recaudaciones\Recaudaciones.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\Trans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenu11_Microcobro.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tokns\Tkn08.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Recaudaciones\Microcobros\Microcobros.java
+*	\newposs_9220_pichincha_cnb\app\src\main\res\values\procodeTemplate.xml
+
+============================================================================================
+
+Mi Vecino 1.4.E.10 - 09 Marzo 2020
+
+Actualizacion:
+
+*   Se integra cuenta xperta con FacePhi
+*   Se añade validación de los primeros 2 dígitos de la cédula que sean menor o igual a 24
+*   Se corrige Bug al ingresar al APN
+
+Archivos modificados:
+
+*   \newposs_9220_pichincha_cnb\ReleaseNotes.txt
+*   \newposs_9220_pichincha_cnb\app\build.gradle
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\master\MasterControl.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\transrecord\HistoryTrans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\UIUtils.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tokns\Tkn01.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransUI.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransUIImpl.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransView.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\finace\FinanceTrans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Administrativas\InitTrans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\CuentaXperta\CuentaXperta.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\Trans.java
+
+============================================================================================
+
+Mi Vecino 1.4.E.4 - 28 Enero 2020
+
+Actualizacion:
+
+*   Se habilita la edición del campo correo en la transacción de reposición kit cuenta básica.
+*   Se enmascara los campos de teléfono y correo para la transacción de reposición de kit
+*   Se integra la opción de tarjeta prepago para las transacciones de retiro y consultas
+*   Por petición de TCS se obliga a ingresar 12 caracteres para la contrapartida de ITSCO (Instituto cordillera), Derechos.
+
+Archivos modificados:
+
+*   \newposs_9220_pichincha_cnb\ReleaseNotes.txt
+*   \newposs_9220_pichincha_cnb\app\build.gradle
+*	\newposs_9220_pichincha_cnb\app\src\main\assets\transcfg\transcfg.properties
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\master\MasterControl.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenuPrincipal.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tokns\Tkn43.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\device\pinpad\PinpadManager.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\device\printer\PrintManager.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\device\printer\PrintRes.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\PaySdk.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\process\EmvTransaction.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\finace\FinanceTrans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Administrativas\CambioClave.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Administrativas\Consultas.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\Retiro\Retiro.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\Trans.java
+
+============================================================================================
+
+Mi Vecino 1.4.E.3 - 21 Enero 2020
+
+Actualizacion:
+
+*   Se habilita la edición del campo correo en la transacción de reposición kit cuenta básica.
+*   Se integra la opción de tarjeta prepago para las transacciones de retiro y consultas
+
+Archivos modificados:
+
+*   \newposs_9220_pichincha_cnb\ReleaseNotes.txt
+*   \newposs_9220_pichincha_cnb\app\build.gradle
+*	\newposs_9220_pichincha_cnb\app\src\main\assets\transcfg\transcfg.properties
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\master\MasterControl.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenuPrincipal.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tokns\Tkn43.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\device\pinpad\PinpadManager.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\device\printer\PrintManager.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\device\printer\PrintRes.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\PaySdk.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\process\EmvTransaction.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\finace\FinanceTrans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Administrativas\CambioClave.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Administrativas\Consultas.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\Retiro\Retiro.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\Trans.java
+
+============================================================================================
+
+Mi Vecino 1.4.E.2 - 17 Enero 2020
+
+Actualizacion:
+
+*   Por petición de TCS se obliga a ingresar 12 caracteres para la contrapartida de ITSCO (Instituto cordillera), Derechos.
+
+Archivos modificados:
+*   \newposs_9220_pichincha_cnb\app\build.gradle
+*   \newpos\libpay\trans\pichincha\Recaudaciones\CentrosEducativos\CentrosEducativos.java
+
+============================================================================================
+
+Mi Vecino 1.4.E.1 - 13 Enero 2020
+
+Actualizacion:
+
+*   Se modifica la transacción de Cuenta básica y UPP fase 6, adicional se entrega la app de FacePhiPichincha con versión 1.4.I
+
+Archivos modificados:
+*   \newposs_9220_pichincha_cnb\app\build.gradle
+*   \newposs_9220_pichincha_cnb\app\src\main\AndroidManifest.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\errno\errno_en.properties
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\master\MasterControl.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\transrecord\HistoryTrans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\UIUtils.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\constructor\BDLogin\controler\ClsConexion.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\configuracion\MainMenu10_7_3_Pantalla.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenu4_PagoServicios.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenu5_1_AntTransito.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenu5_Recaudaciones.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\StartActivity.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tokns\Tkn01.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tokns\Tkn17.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tokns\Tkns.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransUI.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransUIImpl.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransView.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\finace\FinanceTrans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\manager\SettleTrans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Administrativas\InitTrans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\CuentaXperta\CuentaXperta.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Recaudaciones\Ant\Ant.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Recaudaciones\BonoDesarrolloHumano\PagoBonoDesarrolloHumano.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Recaudaciones\CasasComerciales\CasasComerciales.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Recaudaciones\PagoServicios\PagoDeServicios.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Recaudaciones\Recargas\Recargas.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Recaudaciones\Recaudaciones.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Tools\TransTools.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\Trans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\utils\ISOUtil.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\utils\PAYUtils.java
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\amount_cnb.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_ingreso_monto_recau39.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\values\strings.xml
+
+Archivos nuevos:
+*   \newposs_9220_pichincha_cnb\app\extlib\fphi-core-widget-android.aar
+*   \newposs_9220_pichincha_cnb\app\extlib\fphi-selphi-widget-android.aar
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\constructor\BDLogin\Adaptadores\AdaptadorActividad.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\constructor\BDLogin\Adaptadores\AdaptadorSector.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\constructor\BDLogin\Adaptadores\AdaptadorSituacionLaboral.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\constructor\BDLogin\model\Actividad.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\constructor\BDLogin\model\Catalogo.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\constructor\BDLogin\model\Sector.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\constructor\BDLogin\model\SituacionLaboral.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\Fragments\DialogFullscreenFragment.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tokns\Tkn40.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Recaudaciones\Atm\AtmGye.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Recaudaciones\CentrosEducativos\CentrosEducativos.java
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\datos_complementarios.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\inform.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\showsucess.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\viewinfo.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_informacion_kit.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_ingreso_datos_direccion.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_ingreso_documento_scan.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_ingreso_informacion_kit.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_mostrar_contrato.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_validar_codigo_seguridad.xml
+
+============================================================================================
+
+Mi Vecino 1.4.E.0 - 8 Enero 2020
+
+Actualizacion:
+
+*   Se modifica la transacción de Cuenta básica
+
+Archivos modificados:
+*   \newposs_9220_pichincha_cnb\app\build.gradle
+*   \newposs_9220_pichincha_cnb\app\src\main\AndroidManifest.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\errno\errno_en.properties
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\master\MasterControl.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\transrecord\HistoryTrans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\UIUtils.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\constructor\BDLogin\controler\ClsConexion.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\configuracion\MainMenu10_7_3_Pantalla.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenu4_PagoServicios.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenu5_1_AntTransito.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenu5_Recaudaciones.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\StartActivity.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tokns\Tkn01.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tokns\Tkn17.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tokns\Tkns.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransUI.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransUIImpl.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransView.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\finace\FinanceTrans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\manager\SettleTrans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Administrativas\InitTrans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\CuentaXperta\CuentaXperta.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Recaudaciones\Ant\Ant.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Recaudaciones\BonoDesarrolloHumano\PagoBonoDesarrolloHumano.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Recaudaciones\CasasComerciales\CasasComerciales.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Recaudaciones\PagoServicios\PagoDeServicios.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Recaudaciones\Recargas\Recargas.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Recaudaciones\Recaudaciones.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Tools\TransTools.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\Trans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\utils\ISOUtil.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\utils\PAYUtils.java
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\amount_cnb.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_ingreso_monto_recau39.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\values\strings.xml
+
+Archivos nuevos:
+*   \newposs_9220_pichincha_cnb\app\extlib\fphi-core-widget-android.aar
+*   \newposs_9220_pichincha_cnb\app\extlib\fphi-selphi-widget-android.aar
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\constructor\BDLogin\Adaptadores\AdaptadorActividad.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\constructor\BDLogin\Adaptadores\AdaptadorSector.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\constructor\BDLogin\Adaptadores\AdaptadorSituacionLaboral.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\constructor\BDLogin\model\Actividad.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\constructor\BDLogin\model\Catalogo.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\constructor\BDLogin\model\Sector.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\constructor\BDLogin\model\SituacionLaboral.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\Fragments\DialogFullscreenFragment.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tokns\Tkn40.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Recaudaciones\Atm\AtmGye.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Recaudaciones\CentrosEducativos\CentrosEducativos.java
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\datos_complementarios.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\inform.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\showsucess.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\viewinfo.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_informacion_kit.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_ingreso_datos_direccion.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_ingreso_documento_scan.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_ingreso_informacion_kit.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_mostrar_contrato.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_validar_codigo_seguridad.xml
+
+============================================================================================
+
+Mi Vecino 0.8.3 - 8 Octubre 2019
+
+Actualizacion:
+*   Se modifica la tarjeta a pedir en enrolamiento bimo.
+*   Se aumenta la versión.
+
+
+Archivos modificados:
+*   \newposs_9220_pichincha_cnb\app\build.gradle
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\bimo\Bimo.java
+
+============================================================================================
+
+Mi Vecino 0.8.2 - 2 Septiembre 2019
+
+Actualizacion:
+*   Se realiza modificación en el enmascaramiento, para el campo cuenta en enrolamiento billetera móvil.
+*	Se elimina la ventana de comisión en el retiro billetera móvil.
+*   Se realiza aumento de versión.
+*   Se solicita la tarjeta del CNB y no la del cliente.
+*   Se modifica el mensaje para la impresión con la palabra PAUSE.
+
+
+Archivos modificados:
+*   \newposs_9220_pichincha_cnb\app\build.gradle
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\bimo\Bimo.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\finace\FinanceTrans.java
+
+============================================================================================
+
+Mi Vecino 0.8.1 - 2 Agosto 2019
+
+Actualizacion:
+*   Se realiza integración de la versión 069B, correspondiente a cuenta básica.
+*	Se realizan validaciones de códigos de respuesta para billetera móvil y sus tres transacciones.
+*	Se genera nuevo método para validar la respuesta de un código 97.
+
+
+Archivos modificados:
+*   \newposs_9220_pichincha_cnb\app\build.gradle
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\CuentaXperta\CuentaXperta.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\bimo\Bimo.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\finace\FinanceTrans.java
+
+============================================================================================
+Mi Vecino 0.8.0 - 25 Julio 2019
+
+Actualizacion:
+*	Se realizan modificaciones en cuenta básica, para apertura y reposición de kit.
+*	Se implementa el envío del token 13 para la transacción de apertura cuenta básica.
+
+Archivos modificados:
+*	\newposs_9220_pichincha_cnb\app\build.gradle
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\CuentaXperta\CuentaXperta.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tokns\Tkns.java
+
+============================================================================================
+
+Mi Vecino 0.6.9.B - 26 Julio 2019
+
+Actualizacion:
+*   Se realiza ajustes sobre las transacciones de cuenta básica se elimina el carácter F que se mostraba en pantalla.
+
+Archivos modificados:
+*   \newposs_9220_pichincha_cnb\app\build.gradle
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\CuentaXperta\CuentaXperta.java
+
+============================================================================================
+
+Mi Vecino 0.6.9.A - 24 Julio 2019
+
+Actualizacion:
+*   Se realiza ajustes sobre las transacciones de cuenta básica para apertura de cuenta y reposición de kit.
+*   Se realiza implementación del token 01 para su envío en la transacción apertura de cuenta básica.
+
+Archivos modificados:
+*   \newposs_9220_pichincha_cnb\app\build.gradle
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\CuentaXperta\CuentaXperta.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tokns\Tkns.java
+
+============================================================================================
+
+Mi Vecino 0.6.9.6 - 17 Julio 2019
+
+Actualizacion:
+*   Se realiza implementación de la transacción cuenta básica.
+*	Se realiza implementación del token 01.
+*	Se realiza implementación del token 28.
+*	Se realiza implementación de nuevas vistas para transacción cuenta básica.
+*	Se realizan modificaciones solicitadas sobre mensajería para transacción cuenta básica.
+
+Archivos modificados:
+*   \newposs_9220_pichincha_cnb\app\build.gradle
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\master\MasterControl.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\transrecord\HistoryTrans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tokns\Tkns.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransUI.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransUIImpl.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransView.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\finace\FinanceTrans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Administrativas\InitTrans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\CuentaXperta\CuentaXperta.java
+*
+
+Archivos nuevos:
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tokns\Tkn01.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tokns\Tkn28.java
+*	\newposs_9220_pichincha_cnb\app\src\main\res\layout\trans_vista_msg_confirmacion_check.xml
+
+============================================================================================
+
+Mi Vecino 0.6.8.2 - 28 Junio 2019
+
+Actualizacion:
+*   Se realiza ajuste en tiempos de pantalla para el campo60.
+*	Se realizan ajustes sobre la transacción giros nacionales.
+
+Archivos modificados:
+*   \newposs_9220_pichincha_cnb\app\build.gradle
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\GirosyRemesas\GirosyRemesas.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\master\MasterControl.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MensajeCampo60.java
+
+============================================================================================
+
+Mi Vecino 0.6.8.1 - 06 Junio 2019
+
+Actualizacion:
+*	Se elimina el reverso para consulta de saldo y 10 últimos movimientos.
+*	Se realiza ajustes para cierres.
+*	Se realizan ajustes gramaticales.
+
+Archivos modificados:
+*	\newposs_9220_pichincha_cnb\app\build.gradle
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Administrativas\Consultas.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\utils\ISOUtil.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\manager\SettleTrans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\manager\RevesalTrans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\finace\FinanceTrans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\StartActivity.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\LoginCentralizado.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Login.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\master\MasterControl.java
+
+============================================================================================
+
+Mi Vecino 0.6.7.5 - 05 Mayo 2019
+
+Actualizacion:
+*	Se elimina el reverso para consulta de saldo y 10 últimos movimientos.
+
+Archivos modificados:
+*	\newposs_9220_pichincha_cnb\app\build.gradle
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Administrativas\Consultas.java
+
+============================================================================================
+
+Mi Vecino 0.6.7.4 - 04 Mayo 2019
+
+Actualizacion:
+*	Se reliza ajustes para timer de reverso.
+*	Se modifican validaciones para respuesta del reverso, rsp 21, elimina el reverso.
+*	Se realizan ajustes para cierre.
+*	Se inhabilita el cierre automático.
+*	Se reduce la cantidad de consultas automáticas a 1.
+*	Se realizan modificaciones en timer de pantallas.
+*	Se realizan modificaciones para fechas de cierres.
+
+Archivos modificados:
+*	\newposs_9220_pichincha_cnb\app\build.gradle
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\StartActivity.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\finace\FinanceTrans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\manager\RevesalTrans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\manager\SettleTrans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\master\MasterControl.java
+
+============================================================================================
+
+Mi Vecino 0.6.7.2 - 29 Mayo 2019
+
+Actualizacion:
+*	Se realizam ajustes gramaticales.
+*	Ajustes en consulta automática.
+*	Se agregan validaciones para evitar fallos almacenando recibos.
+*	Se realizan ajustes en el cierre, cantidad de usuarios.
+
+Archivos modificados:
+*	\newposs_9220_pichincha_cnb\app\build.gradle
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\master\MasterControl.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\finace\FinanceTrans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\utils\ISOUtil.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\manager\SettleTrans.java
+
+============================================================================================
+
+Mi Vecino 0.6.7.1 - 23 Mayo 2019
+
+Actualizacion:
+*	Se realizan modificaciones para cierre.
+*	Se limita el botón back.
+*	Se realiza modificación sobre toast, cuando se presiona el botón back.
+*	Se implementa el retorno de error en envio y error en empaquetado de iso.
+*	Se realiza ajuste impresión para informes.
+*	Se elimina la opción de Consulta Comprobante.
+*	Se realiza ajuste para recibo de consulta automática.
+*	Se realiza modificación en la conexión, en caso de no obtener confirmación.
+
+Archivos modificados:
+*	\newposs_9220_pichincha_cnb\app\build.gradle
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Administrativo\MainMenu10_4_UsuariosLocales.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\master\MasterControl.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\UIUtils.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\finace\FinanceTrans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\Trans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\helper\ssl\NetworkHelper.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Administrativas\CuponHistorico.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenu10_3_Informes.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\manager\RevesalTrans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\LoginCentralizado.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\StartActivity.java
+
+============================================================================================
+
+Mi Vecino 0.6.7 - 09 Mayo 2019
+
+Actualizacion:
+*   Se realiza ajuste en tiempos de pantalla.
+*   Se realiza ajustes en reverso.
+*	Se realiza ajustes en cierre.
+*	Se implementa consulta automática.
+*   Se realiza ajustes en la impresión para diario de transacciones y para impresión de emisión último comprobante.
+
+Archivos modificados:
+*   \newposs_9220_pichincha_cnb\app\build.gradle
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenu5_1_AntTransito.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenu7_GirosRemesas.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenu9_Productos.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenu10_8_ModoConexion.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenu10_Administrativo.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MensajeCampo60.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\configuracion\MainMenu10_7_2_1_3_Personalizar.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\configuracion\MainMenu10_7_2_1_Red.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\configuracion\MainMenu10_7_2_Comunicacion.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\configuracion\MainMenu10_7_Configuracion.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Administrativas\InitTrans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\Deposito\Deposito.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Login.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\finace\FinanceTrans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\manager\SettleTrans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\res\values-zh\arrays.xml
+*	\newposs_9220_pichincha_cnb\app\src\main\res\values-es\arrays.xml
+*	\newposs_9220_pichincha_cnb\app\src\main\res\values-en\arrays.xml
+*	\newposs_9220_pichincha_cnb\app\src\main\res\values\arrays.xml
+*	\newposs_9220_pichincha_cnb\app\src\main\res\layout\app_toast.xml
+*	\newposs_9220_pichincha_cnb\app\src\main\res\drawable\shape_roll_rectangle.xml
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Administrativas\CuponHistorico.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\manager\RevesalTrans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\Trans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\Tcode.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransView.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransUIImpl.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransUI.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\device\printer\PrintManager.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Administrativo\ImpresionPantalla.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\constructor\Utils.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\transrecord\HistoryTrans.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\master\MasterControl.java
+*	\newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\UIUtils.java
+
+============================================================================================
+
+Mi Vecino 0.6.5 - 09 Mayo 2019
+
+Actualizacion:
+*   Se realiza ajuste en transaccion television pagada, operador claro.
+*   Se agrega el numero de version en todas las vistas.
+*   Se realiza ajustes en la impresión para diario de transacciones y para impresión de emisión último comprobante.
+
+Archivos modificados:
+*   \newposs_9220_pichincha_cnb\app\build.gradle
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Recaudaciones\Recargas\Recargas.java
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\activity_impresion_pantalla.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\activity_login.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\activity_logincentralizado.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\amount_cnb.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\input_text_date.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\trans_handling.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\trans_result.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\trans_show_list.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\trans_vista_msg_confirmacion.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_buttons_banner1.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_buttons_banner2.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_cedula_nfc.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_confirmacion_resp99.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_crearusuario_bd.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_historial_trans.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_imprimiendo.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_ingreso_1fecha_1text.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_ingreso_1text.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_ingreso_2text.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_ingreso_bono_desarrollo.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_ingreso_documento.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_ingreso_empre_publi.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_ingreso_fecha.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_ingreso_fecha_hora.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_ingreso_monto_recau39.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_ingreso_numcuenta_monto.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_insertar_tarjeta.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_listview_banner2.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_login.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\values\strings.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\values-en\strings.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\values-es\strings.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\values-zh\strings.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\finace\FinanceTrans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Administrativo\ImpresionPantalla.java
+
+Archivos nuevo:
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\BannerInferior.java
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\layout_banner_inferior.xml
+
+============================================================================================
+
+Mi Vecino 0.6.4.C - 06 Mayo 2019
+
+Actualizacion:
+*   Se realiza ajuste en timers de navegación.
+*   Se realiza ajustes en recargas, para evitar reversos.
+*   Se realiza ajuste en envío de versión a NetManager. (para versiones de 4 dígitos, se dejan de responder algunas transacciones - Recargas)
+*   Se realiza ajuste en mensajería de Cupón Histórico, para el correcto procesamiento en Netmanager.
+*   Se realiza ajustes en reversos.
+*   Se agrega mensaje informativo cuando el POS no tiene respuesta del servidor.
+
+Archivos modificados:
+*   \newposs_9220_pichincha_cnb\app\build.gradle
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\master\MasterControl.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenu10_3_Informes.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenu10_8_ModoConexion.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenu10_Administrativo.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenu3_Recargas.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenu4_PagoServicios.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenu5_Recaudaciones.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenu6_1_ConsultaPersonas.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenu7_GirosRemesas.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenu9_Productos.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenuPrincipal.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Administrativo\ImpresionPantalla.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Administrativo\MainMenu10_4_1_1_ModificarAdmin.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Administrativo\MainMenu10_4_1_Login_ModificarAdmin.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Administrativo\MainMenu10_4_3_1_Re_Establecer_Clave.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Administrativo\MainMenu10_4_3_Login_Re_Establecer_Clave.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Administrativo\MainMenu10_4_4_1_EliminarUsuario.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Administrativo\MainMenu10_4_4_Login_EliminarUsuario.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Administrativo\MainMenu10_4_5_1_ReporteUsuario_Pantalla.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Administrativo\MainMenu10_4_5_ReporteUsuario.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Administrativo\MainMenu10_4_6_1_ModificarClave.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Administrativo\MainMenu10_4_6_Login_ModificarClave.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Administrativo\MainMenu10_4_UsuariosLocales.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\configuracion\MainMenu10_7_2_1_Red.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\configuracion\MainMenu10_7_2_Comunicacion.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\configuracion\MainMenu10_7_3_Pantalla.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\configuracion\MainMenu10_7_Configuracion.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\device\pinpad\InjectMasterKey.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Login.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tokns\Tkn92.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\StartActivity.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Administrativas\InitTrans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Recaudaciones\Recargas\Recargas.java
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\custom_dialog.xml
+
+
+============================================================================================
+
+Mi Vecino 0.6.3 - 08 Mar 2019
+
+Actualizacion:
+*   Se agrega sistema para captura de procesos en ejecucion.
+*   Se realiza ajustes en reversos.
+*   Se realiza ajuste en cierres qie se envian en momentos no asignados.
+*   Se realiza metodo en la inicializacion que compara la fecha del dispositivo con la fecha de netmanager. De no concordar se solicita cambiar la fecha.
+
+Archivos modificados:
+*   \newposs_9220_pichincha_cnb\app\build.gradle
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\custom_dialog.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\master\ResultControl.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tokns\Tkns.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenuPrincipal.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\ModoKiosko.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\StartActivity.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\utils\ISOUtil.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\utils\CheckSettle.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\Trans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\finace\FinanceTrans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Administrativas\InitTrans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\Deposito\Deposito.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\Retiro\Retiro.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Recaudaciones\Recaudaciones.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\manager\RevesalTrans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\manager\SettleTrans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Administrativas\Consultas.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Administrativas\CrearUsuario.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Administrativas\CuponHistorico.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Administrativas\LoginCentral.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Administrativas\VisitaFuncioario.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\bimo\Bimo.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\ConsultaValorCredito\ConsultaValorCredito.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\CuentaXperta\CuentaXperta.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\DesembolsoCredito\DesembolsoCredito.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\GirosyRemesas\GirosyRemesas.java
+
+Archivos nuevo:
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tools\WriteLogs.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\utils\SaveData.java
+
+============================================================================================
+
+Mi Vecino 0.6.2 - 15 Feb 2019
+
+Actualizacion:
+*   Se modifica la funcionalidad del boton aceptar en BDH para realizar la validacion de los editText que no se han completado.
+*   Se configura correctamente el teclado para el editText codigo dactilar.
+
+Archivos modificados:
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\master\MasterControl.java
+
+
+============================================================================================
+
+Mi Vecino 0.6.1 - 15 Feb 2019
+
+Actualizacion:
+*   Se devuelve los archivos TMConfig.java y default_config.properties a la version anterior 0.5.8 para evitar modificaciones a las propiedades del archivo.
+*   Se realiza el correccion de validacion en el login de la app.
+
+Archivos modificados:
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\global\TMConfig.java
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\default\default_config.properties
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Login.java
+
+
+============================================================================================
+
+Mi Vecino 0.6.0 - 13 Feb 2019
+
+Actualizacion:
+*   Se modifica la base de datos de usuarios para permitir saber actualizar el estado del cierre por usuario.
+*   Se realizan mejoras en el envio de cierre, ajustando los cierres automaticos.
+*   Se crea AlertDialog personalizado para el BDH, el cual muestra imagenes de manera mas grande.
+
+Archivos modificados:
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenuPrincipal.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\StartActivity.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Login.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\global\TMConfig.java
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\default\default_config.properties
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\master\MasterControl.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\transrecord\HistoryTrans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\constructor\BDLogin\controler\ClsConexion.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\constructor\BDLogin\model\Usuario.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Administrativo\MainMenu10_4_1_Login_ModificarAdmin.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Administrativo\MainMenu10_4_3_1_Re_Establecer_Clave.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Administrativo\MainMenu10_4_3_Login_Re_Establecer_Clave.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Administrativo\MainMenu10_4_4_Login_EliminarUsuario.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Administrativo\MainMenu10_4_5_1_ReporteUsuario_Pantalla.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Administrativo\MainMenu10_4_5_ReporteUsuario.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\Administrativo\MainMenu10_4_6_Login_ModificarClave.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransUI.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransUIImpl.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransView.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\manager\SettleTrans.java
+
+
+============================================================================================
+
+Mi Vecino 0.5.8 - 08 Feb 2019
+
+Actualizaciones:
+*   Correccion en el formateo del texto en la impresion de parametros del dispositivo.
+*   Correcciones al metodo validador de cedulas.
+*   Correccion al text watcher que solo validaba la cedula en una sola ocacion. Se corrige y se valida la cedula las veces necesarias.
+*   Ajustes en la validacion de los mensajes de respuesta.
+*   Mejoras en la solicitud de multiplecuenta.
+*   Mejora visual en el alertDialog de la solicitud de bono de desarrollo humano.
+
+Archivos modificados:
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\master\MasterControl.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\BarraEstado.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\manager\SettleTrans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\device\printer\PrintManager.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenuPrincipal.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\constructor\Utils.java
+
+Archivos nuevos:
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\custom_img_dialog.java
+
+
+============================================================================================
+
+Mi Vecino 0.5.7 - 05 Feb 2019
+
+Actualizaciones:
+*   Intregracion de bono de desarrollo humano con lectura de codigo de barras y NFC cedula.
+*   Correccion de codigo de respuesta 99 para multiple cuenta sin saldo.
+*   Correcciones en reversos no necesarios de transaccion de consulta de BIMO
+
+Archivos modificados:
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\financieras\bimo\Bimo.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Recaudaciones\BonoDesarrolloHumano\PagoBonoDesarrolloHumano.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\pichincha\Recaudaciones\Recaudaciones.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\finace\FinanceTrans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransUI.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransUIImpl.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\presenter\TransView.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\device\card\CardInfo.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\device\card\CardManager.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\master\MasterControl.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\transrecord\HistoryTrans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenu5_Recaudaciones.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\tokns\Tkn17.java
+*   \newposs_9220_pichincha_cnb\app\src\main\res\values\strings.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\values-en\strings.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\values-es\strings.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\values-zh\strings.xml
+
+Archivos nuevos:
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\img\barras.png
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\img\cod_dactilar.png
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\img\fecha.png
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\img\num_cedula.png
+*   \newposs_9220_pichincha_cnb\app\src\main\res\drawable\pichi_nfc.png
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_cedula_nfc.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_ingreso_bono_desarrollo.xml
+
+============================================================================================
+
+Mi Vecino 0.5.6 - 04 Feb 2019
+
+Actualizaciones:
+*   Correccion de Cierre centralizado.
+*   Correccion cierre por cambio de operacion.
+*   Correccion a barra de estado, porcentaje de bateria.
+
+Archivos modificados:
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\BarraEstado.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\manager\SettleTrans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\MainMenuPrincipal.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\LoginCentralizado.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\screens\StartActivity.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cn\desert\newpos\payui\master\MasterControl.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\newpos\libpay\trans\finace\FinanceTrans.java
+*   \newposs_9220_pichincha_cnb\app\src\main\java\cnb\pichincha\wposs\mivecino_pichincha\constructor\UserCentralizado.java
+
+============================================================================================
+
+Mi Vecino 0.5.5 - 29 Ene 2019
+
+Actualizaciones:
+*   Se realiza depuración en el codigo para mejoras de rendimiento.
+*   Se han eliminado archivos y metodos no usados.
+
+Archivos eliminados:
+*   \newposs_9220_pichincha_cnb\app\src\main\res\drawable\btn_red_shape.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\last4_cnb.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\trans_show_qrc.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\trans_show_transinfo.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\layout\vista_listview_banner1.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\res\values-v21\strings.xml
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\dollor.png
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\pay_ali.png
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\pay_union.png
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\pay_visa.png
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\pay_wechat.png
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\rmb.png
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\logo\beijinyinhang.png
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\logo\huaxiayinhang.png
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\logo\jiaotongyinhang.png
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\logo\pipinganyinhang.png
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\logo\pufayinhang.png
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\logo\xingyeyinhang.png
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\logo\zhaoshangyinhang.png
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\logo\zhongguogongshang.png
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\logo\zhongguoguangda.png
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\logo\zhongguojianshe.png
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\logo\zhongguominsheng.png
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\logo\zhongguonongye.png
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\logo\zhongguoyinhang.png
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\logo\zhongguoyinlian.png
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\logo\zhongguoyouzheng.png
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\logo\zhongxinyinhang.png
+*   \newposs_9220_pichincha_cnb\app\src\main\assets\bankname\bankname.properties
+
+
+============================================================================================
+
+Mi Vecino 0.4.11 - 04 Ene 2019
+*   Solucion a fallo de solicitud de inicializacion en modo Centralizado.
+*   Solucion a fallo con los timers.
+
+============================================================================================
+
+Mi Vecino 0.4.10 - 04 Ene 2019
+*   Correción a inicialización. Se presentaba mensaje de incializacion fallida. Se corrige el envio de la inicializacion.
+*   Solucion a fallo de reinicio de app por no conexion a red.
+*   De no conectar se presenta mensaje indicando verificar conexion o APN.
+*   Se mejora la concatenacion de variables string.
+*   Ajuste de cierre centralizado. Boton cancelar presentaba falla.
+
+============================================================================================
+
+Mi Vecino 0.4.9 - 03 Ene 2019
+*   Corrección al mensaje de solicitar tarjeta en la creación de usuarios.
+*   Ajuste en recepción de tokens, manejando try catch para exepciones de errores.
+*   Ajuste en la barra de estado con el icono de señal.
+
+============================================================================================
+
+Mi Vecino 0.4.8 – 28 Dic 2018
+*	Corrección fallo relacionado con PCI – MasterKey en el proceso de encriptación del track 2.
+*	Ajuste de vista de creación de usuarios que no inflaba los botones de aceptar y cancelar. 
+*	Se agrega icono a barra de estado informado cuando el equipo se encuentra en modo Kiosko
+*	Se realiza ajustes al cierre de sesión del usuario en modo centralizado. Se realizan ajustes a la ventana de turnos para cuando el modo sea centralizado. 
+
+============================================================================================
+
+Mi Vecino 0.4.7 – 26 Dic 2018
+*	Captura de RSPCode en transacciones de inicalizacion e inicialización EMV. 
+*	Visualizacion del mensaje de error que llega del Token 07.
+
+============================================================================================
+
+Mi Vecino 0.4.6 – 22 Dic 2018
+*	Se ajusta ventana de mensaje del campo 60
+*	Se elimina el botón cerrar sesión del menú principal para tipo de sesión centralizado. 
+*	Se corrige fallo en transacción remeses que al cancelar la transacción se enviaba igualmente la transacción. 
+*	Se activa el modo kiosko y se agrega botón para desactivar esta opción.
+
+============================================================================================
+
+Mi Vecino 0.4.5 – 21 Dic 2018
+*	Se ajusta transacción billetera móvil, modifica ventana costo de servicio.
+*	Se cambia nombre token por tkn.
+*	Se realiza validación del campo 60 para visualizar el mensaje, indicando la letra inicial y dependiendo de ello se mostrar botón de imprimir, salir o solo imprimir sin mostrar en pantalla. 
+*	Se realiza limpieza de clases y métodos no usados. Necesario para trabajo de ofuscación.
+
+============================================================================================ 
+
+Mi Vecino 0.4.4 – 19 Dic 2018
+*	Se optimiza el uso de imágenes png por gráficos xml. 
+*	Corrección token 20 para transacción Diario de transacciones. 
+*	Se agrega opción de corregir el nombre en Cuenta Básica, crear nuevo usuario. 
+*	Correcciones ortográficas y gramaticales. 
+
+============================================================================================

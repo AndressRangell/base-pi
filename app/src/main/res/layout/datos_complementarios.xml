@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#FFFFFF"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="60dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginStart="31dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="LogoToolbar"
+                app:srcCompat="@drawable/logo_mivecino" />
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/materialprimary"
+            android:text="Ingresa documento"
+            android:gravity="center"
+            android:textColor="@color/blueText"
+            android:textSize="22sp"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/Relative1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tv1"
+            android:padding="10dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="100dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvSector"
+                            android:layout_width="127dp"
+                            android:layout_height="50dp"
+                            android:text="@string/sector"
+                            android:textColor="@color/blueText"
+                            android:textSize="20sp" />
+
+                        <Spinner
+                            android:id="@+id/spinnerSector"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@drawable/custom_spinneriden"
+                            android:gravity="center"
+                            android:popupBackground="@drawable/customadapspinner" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/txtError1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="140dp"
+                        android:textColor="@color/red"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvActividad"
+                            android:layout_width="127dp"
+                            android:layout_height="50dp"
+                            android:text="@string/actividad"
+                            android:textColor="@color/blueText"
+                            android:textSize="20sp" />
+
+                        <Spinner
+                            android:id="@+id/spinnerActividad"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@drawable/custom_spinneriden"
+                            android:gravity="center"
+                            android:clickable="false"
+                            android:focusable="false"
+                            android:popupBackground="@drawable/customadapspinner" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/txtError2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="140dp"
+                        android:textColor="@color/red"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvIngreso"
+                            android:layout_width="127dp"
+                            android:layout_height="50dp"
+                            android:text="@string/ingresos"
+                            android:textColor="@color/blueText"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/etIngreso"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:background="@drawable/edittext_pichi"
+                            android:ems="10"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:inputType="textCapCharacters"
+                            android:textAllCaps="true"
+                            android:textColor="@android:color/black"
+                            android:textColorHint="@color/black"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/txtError3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="140dp"
+                        android:textColor="@color/red"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvSituacion"
+                            android:layout_width="127dp"
+                            android:layout_height="50dp"
+                            android:text="@string/situacion"
+                            android:textColor="@color/blueText"
+                            android:textSize="20sp" />
+
+                        <Spinner
+                            android:id="@+id/spinnerSituacion"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@drawable/custom_spinneriden"
+                            android:gravity="center"
+                            android:popupBackground="@drawable/customadapspinner" />
+
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/txtError4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="140dp"
+                        android:textColor="@color/red"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </ScrollView>
+
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="130dp"
+                android:layout_height="48dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="30dp"
+                android:background="@drawable/pichi_btn_sub_cancelar"
+                android:text="@string/btn_cancel"
+                android:textColor="@color/blueText"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                tools:layout_constraintBottom_creator="1"
+                tools:layout_constraintLeft_creator="1" />
+            <Button
+                android:id="@+id/btnAccept"
+                android:layout_width="130dp"
+                android:layout_height="48dp"
+                android:layout_margin="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/pichi_btn_sub_aceptar"
+                android:text="@string/btn_accept"
+                android:textColor="@color/blueText"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:layout_constraintBottom_creator="1"
+                tools:layout_constraintRight_creator="1" />
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_alignBottom="@+id/Relative1"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal">
+            <cnb.pichincha.wposs.mivecino_pichincha.screens.BannerInferior
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

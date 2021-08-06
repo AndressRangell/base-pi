@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string-array name="setting_items" tools:ignore="ExtraTranslation">
+        <item>通讯参数设置</item>
+        <item>交易参数设置</item>
+        <item>密钥参数设置</item>
+        <item>维护密码修改</item>
+        <item>错误日志列表</item>
+        <item>私有参数设置</item>
+        <item>反馈和建议</item>
+    </string-array>
+
+    <string-array name="setting_items2" tools:ignore="ExtraTranslation">
+        <item>通讯参数设置</item>
+        <item>交易参数设置</item>
+        <item>密钥参数设置</item>
+        <item>私有参数设置</item>
+    </string-array>
+
+    <string-array name="onoff" tools:ignore="ExtraTranslation">
+        <item>开</item>
+        <item>关</item>
+    </string-array>
+
+    <string-array name="scanner_back" tools:ignore="ExtraTranslation">
+        <item>后置摄像头</item>
+        <item>前置摄像头</item>
+    </string-array>
+
+    <string-array name="print_num" tools:ignore="ExtraTranslation">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="reversal_counts" tools:ignore="ExtraTranslation">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="exit_time" tools:ignore="ExtraTranslation">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+
+
+    <string-array name="wait_time" tools:ignore="ExtraTranslation">
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+
+
+    <string-array name="mensajes_handling">
+        <item>Inicialización</item>
+        <item>Cierre total</item>
+        <item>Conectando con banco</item>
+        <item>Reverso exitoso</item>
+        <item>Recibiendo información del servidor</item>
+        <item>Enviando reverso</item>
+        <item>Imprimiendo recibo</item>
+        <item>Conectando al servidor</item>
+        <item>Transacción en proceso</item>
+        <item>Descargando EMV Paras</item>
+        <item>Descargando EMV Capks</item>
+        <item>Iniciando emv</item>
+        <item>Cierre descuadrado</item>
+        <item>Deposito correcto por valor de</item>
+        <item>Retiro exitoso</item>
+        <item>Operación realizada con éxito</item>
+        <item>Usuario creado con éxito</item>
+        <item>Consulta exitosa</item>
+        <item>Informe exitoso</item>
+        <item>Inicialización exitosa</item>
+        <item>Impresión exitosa</item>
+        <item>Recaudación exitosa</item>
+        <item>Recarga exitosa</item>
+        <item>Orden de pago exitosa</item>
+        <item>Impresora sin papel</item>
+        <item>Pago exitoso</item>
+        <item>Cierre por cambio de operación</item>
+        <item>Cierre de sesión exitoso</item>
+        <item>Información recibida, procesando respuesta</item>
+        <item>Error al enviar mensaje. Generando reverso</item>
+        <item>Error al recibir. Generando reverso</item>
+        <item>Consulta automática en proceso</item>
+        <item>Consulta automática exitosa</item>
+    </string-array>
+
+</resources>

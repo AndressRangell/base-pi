@@ -1,0 +1,39 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 27
+
+    lintOptions {
+        abortOnError false
+    }
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 27
+
+        project.archivesBaseName = "fphi-matchersoaplibrary"
+        project.version = android.defaultConfig.versionName
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+
+        }
+    }
+
+    libraryVariants.all { variant ->
+        variant.outputs.all { output ->
+            if (outputFile != null && outputFileName.endsWith('.aar')) {
+                //outputFileName = "${archivesBaseName}-${version}.aar"
+                outputFileName = "${archivesBaseName}.aar"
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation files('libs/ksoap2-android-assembly-2.5.8-jar-with-dependencies.jar')
+}
+

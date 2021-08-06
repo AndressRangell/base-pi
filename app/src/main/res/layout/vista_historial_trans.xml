@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#FFFFFF"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="60dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginStart="31dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="LogoToolbar"
+                app:srcCompat="@drawable/logo_mivecino" />
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/materialprimary"
+            android:gravity="center"
+            android:text="Historial de transacciones"
+            android:textColor="@color/blueText"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+
+        <RelativeLayout
+            android:id="@+id/Relative1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tv1"
+            android:background="@color/colorWhite"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="40dp">
+
+            <LinearLayout
+                android:id="@+id/transaction_details_root"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/history_search_layout"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="50dp">
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_weight="4"
+                        android:textColorHint="#aaa"
+                        android:textColor="#aaa"
+                        android:maxLength="6"
+                        android:hint="@string/please_input_traceno_hint"
+                        android:id="@+id/history_search_edit"
+                        android:inputType="number"
+                        android:background="@drawable/edittext_pichi"
+                        android:layout_height="match_parent" />
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/history_search"
+                            android:layout_width="wrap_content"
+                            android:layout_centerInParent="true"
+                            app:srcCompat="@drawable/icon_search"
+                            android:layout_height="wrap_content" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <ListView
+                    android:id="@+id/history_lv"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="10dp"
+                    android:scrollbars="none"
+                    style="@style/Listview_Nodiv"/>
+                <include
+                    android:id="@+id/history_nodata"
+                    layout="@layout/activity_history_nodata" />
+                <include
+                    android:id="@+id/reprint_process"
+                    layout="@layout/trans_handling"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_alignBottom="@+id/Relative1"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal">
+            <cnb.pichincha.wposs.mivecino_pichincha.screens.BannerInferior
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

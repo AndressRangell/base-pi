@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+ 
+
+    defaultConfig {
+        applicationId "com.example.facephipinchincha"
+        minSdkVersion 21
+        targetSdkVersion 27
+        versionName "1.4.I"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false
+            proguardFile getDefaultProguardFile('proguard-android-optimize.txt')
+            proguardFile 'proguard-project.txt'
+        }
+        debug {
+            minifyEnabled false
+            shrinkResources false
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+
+
+    implementation files('libs/fphi-core-widget-android.aar')
+    implementation files('libs/fphi-selphi-widget-android.aar')
+}
+

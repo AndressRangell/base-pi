@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo_pichincha">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#FFFFFF"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="60dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginStart="31dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/pichi_mivecino_logo"
+                android:contentDescription="@string/logoMiVecino" />
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/materialprimary"
+            android:gravity="center"
+            android:textColor="@color/blueText"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:id="@+id/Relative1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tv1"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/rl1"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/ms0"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="left"
+                        android:text="Texto 1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#0F265C"
+                        />
+
+                    <EditText
+                        android:id="@+id/et1"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/ms0"
+                        android:layout_marginTop="10dp"
+                        android:maxLength="40"
+                        android:background="@drawable/edittext_pichi"
+                        android:textColor="#0F265C"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:imeOptions="actionDone"/>
+
+                    <TextView
+                        android:id="@+id/ms2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/et1"
+                        android:layout_marginTop="15dp"
+                        android:gravity="left"
+                        android:textColor="#0F265C"
+                        android:text="Texto 2"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtError1"
+                        android:layout_width="245dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/et1"
+                        android:textColor="@color/red"
+                        android:textSize="12sp" />
+
+                </RelativeLayout>
+
+            </ScrollView>
+
+
+            <Button
+                android:id="@+id/btnGenerar"
+                android:layout_width="130dp"
+                android:layout_height="48dp"
+                android:text="Generar"
+                android:background="@drawable/pichi_btn_sub_aceptar"
+                android:textAllCaps="false"
+                android:textColor="@color/blueText"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginEnd="0dp"
+                android:layout_marginStart="173dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btCancel"
+                    android:layout_width="130dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/pichi_btn_sub_cancelar"
+                    android:text="@string/btn_cancel"
+                    android:textAllCaps="false"
+                    android:textColor="@color/blueText"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="18dp"
+                    />
+
+                <Button
+                    android:id="@+id/btAceptar"
+                    android:layout_width="130dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/pichi_btn_sub_aceptar"
+                    android:text="@string/btn_accept"
+                    android:textAllCaps="false"
+                    android:textColor="@color/blueText"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="25dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="25dp"
+                android:background="@color/white"
+                app:srcCompat="@drawable/logo_pichi_inferior" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

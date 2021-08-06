@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#FFFFFF"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="60dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginStart="31dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/pichi_mivecino_logo"
+                android:contentDescription="@string/logoMiVecino" />
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/materialprimary"
+            android:gravity="center"
+            android:textColor="@color/blueText"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/Relative1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tv1"
+            android:padding="20dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100dp">
+
+                <RelativeLayout
+                    android:id="@+id/linearData"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp">
+
+                    <TextView
+                        android:id="@+id/tvMsgCedula"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="Ingresa numero de cedula"
+                        android:textColor="@color/blueText" />
+                    <TextView
+                        android:id="@+id/tvMsgCodigo"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/txtError1"
+                        android:text="Ingresa codigo dactilar"
+                        android:textColor="@color/blueText" />
+                    <TextView
+                        android:id="@+id/tvMsgFecha"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/txtError2"
+                        android:text="Ingresa fecha de expedicion"
+                        android:textColor="@color/blueText" />
+
+                    <EditText
+                        android:id="@+id/etCedula"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/edittext_pichi"
+                        android:inputType="number"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_below="@+id/tvMsgCedula"
+                        tools:ignore="Autofill,LabelFor" />
+                    <EditText
+                        android:id="@+id/etCodigo"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/edittext_pichi"
+                        android:inputType="textCapCharacters"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_below="@+id/tvMsgCodigo"
+                        tools:ignore="Autofill,LabelFor"
+                        />
+                    <EditText
+                        android:id="@+id/etFecha"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/edittext_pichi"
+                        android:inputType="date"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:focusable="false"
+                        android:hint="AAAAMMDD"
+                        android:layout_marginTop="5dp"
+                        android:layout_below="@+id/tvMsgFecha"
+                        tools:ignore="Autofill,LabelFor" />
+
+                    <Button
+                        android:id="@+id/btnScan"
+                        android:layout_width="70dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/pichi_btn_sub_aceptar"
+                        android:text="SCAN" />
+
+                    <ImageButton
+                        android:id="@+id/button_fecha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:layout_marginTop="215dp"
+                        android:layout_alignParentEnd="true"
+                        android:src="@mipmap/ic_date_calendar" />
+
+                    <TextView
+                        android:id="@+id/txtError1"
+                        android:layout_width="245dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/etCedula"
+                        android:textColor="@color/red"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:id="@+id/txtError2"
+                        android:layout_width="244dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/etCodigo"
+                        android:textColor="@color/red"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:id="@+id/txtError3"
+                        android:layout_width="245dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/etFecha"
+                        android:textColor="@color/red"
+                        android:textSize="12sp" />
+
+
+
+
+
+
+
+                </RelativeLayout>
+
+            </ScrollView>
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="130dp"
+                android:layout_height="48dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="20dp"
+                android:background="@drawable/pichi_btn_sub_cancelar"
+                android:text="@string/btn_cancel"
+                android:textAllCaps="false"
+                android:textColor="@color/blueText"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                tools:layout_constraintBottom_creator="1"
+                tools:layout_constraintLeft_creator="1" />
+
+            <Button
+                android:id="@+id/btnAccept"
+                android:layout_width="130dp"
+                android:layout_height="48dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="20dp"
+                android:background="@drawable/pichi_btn_sub_aceptar"
+                android:text="@string/btn_accept"
+                android:textAllCaps="false"
+                android:textColor="@color/blueText"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:layout_constraintBottom_creator="1"
+                tools:layout_constraintRight_creator="1" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/Relative1"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <cnb.pichincha.wposs.mivecino_pichincha.screens.BannerInferior
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_pichincha"
+    android:orientation="vertical"
+    android:screenOrientation="landscape"
+    tools:context=".screens.Login">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="60dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginStart="31dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="LogoToolbar"
+                app:srcCompat="@drawable/logo_mivecino" />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvMsg1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:text="Ingresa a Mi Vecino"
+                android:textColor="@color/blueDark"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvMsg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/codigoUsuario"
+                android:textColor="@color/blueText"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editText_usuario"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edittext_pichi"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textCursorDrawable="@drawable/cursor_custon" />
+
+            <TextView
+                android:id="@+id/txtErrorUsuario"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvMsg3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/clave"
+                android:textColor="@color/blueText"
+                android:textSize="18sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:id="@+id/editText_Clave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_pichi"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="0"
+                    android:textColor="@color/white"
+                    android:cursorVisible="false"
+                    android:longClickable="false"
+                    android:textCursorDrawable="@drawable/cursor_custon" />
+                <ImageView
+                    android:id="@+id/punto1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="17dp"
+                    app:srcCompat="@drawable/circle_shape"
+                    android:visibility="invisible"
+                    android:padding="7dp"
+                    />
+                <ImageView
+                    android:id="@+id/punto2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:srcCompat="@drawable/circle_shape"
+                    android:padding="7dp"
+                    android:layout_marginTop="5dp"
+                    android:visibility="invisible"
+                    android:layout_toEndOf="@+id/punto1"/>
+                <ImageView
+                    android:id="@+id/punto3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:srcCompat="@drawable/circle_shape"
+                    android:padding="7dp"
+                    android:layout_marginTop="5dp"
+                    android:visibility="invisible"
+                    android:layout_toEndOf="@+id/punto2" />
+                <ImageView
+                    android:id="@+id/punto4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:srcCompat="@drawable/circle_shape"
+                    android:padding="7dp"
+                    android:layout_marginTop="5dp"
+                    android:visibility="invisible"
+                    android:layout_toEndOf="@+id/punto3"/>
+                <ImageView
+                    android:id="@+id/punto5"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:srcCompat="@drawable/circle_shape"
+                    android:padding="7dp"
+                    android:layout_marginTop="5dp"
+                    android:visibility="invisible"
+                    android:layout_toEndOf="@+id/punto4"/>
+                <ImageView
+                    android:id="@+id/punto6"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:srcCompat="@drawable/circle_shape"
+                    android:padding="7dp"
+                    android:layout_marginTop="5dp"
+                    android:visibility="invisible"
+                    android:layout_toEndOf="@+id/punto5"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txtErrorClave"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btLogin"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:background="@drawable/pichi_btn_sub_aceptar"
+                android:text="Ingresar"
+                android:textColor="@color/blueText"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvMsg4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginTop="180dp"
+                android:textColor="@color/blueDark"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/linear1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <cnb.pichincha.wposs.mivecino_pichincha.screens.BannerInferior
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

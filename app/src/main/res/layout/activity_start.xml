@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_pichincha"
+    android:orientation="vertical"
+    android:screenOrientation="landscape"
+    tools:context=".screens.StartActivity">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <cnb.pichincha.wposs.mivecino_pichincha.screens.BarraEstado
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+
+        <TextView
+            android:id="@+id/tvMsg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:gravity="center_horizontal"
+            android:text="Bienvenido"
+            android:textColor="@color/blueDark"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="225dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="80dp"
+            app:srcCompat="@drawable/pichi_logo_doble"/>
+
+        <Button
+            android:id="@+id/btnInit"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/pichi_btn_sub_aceptar"
+            android:text="Inicializar"
+            android:textAllCaps="false"
+            android:textColor="@color/blueText"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnConf"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/pichi_btn_sub_cancelar"
+            android:text="Administrativo"
+            android:textColor="@color/blueText"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvMsg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/blueDark"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+<!--
+
+<Button
+android:id="@+id/btnElim"
+android:layout_width="200dp"
+android:layout_height="48dp"
+android:layout_marginTop="10dp"
+android:background="@drawable/pichi_btn_sub_cancelar"
+android:text="Eliminar MasterKey"
+android:textColor="@color/blueText"
+android:textAllCaps="false"
+android:textSize="20sp" />
+
+-->
